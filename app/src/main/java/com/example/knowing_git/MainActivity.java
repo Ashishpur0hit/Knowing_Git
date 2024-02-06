@@ -6,6 +6,12 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    public void fun()
+    {
+        System.out.println(7);
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
