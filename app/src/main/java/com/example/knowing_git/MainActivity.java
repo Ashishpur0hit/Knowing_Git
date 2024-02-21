@@ -7,6 +7,11 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    public void fun()
+    {
+        System.out.println("Jai Shree Ram");
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
